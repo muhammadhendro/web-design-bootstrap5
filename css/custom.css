@@ -1,0 +1,59 @@
+.btn-primary {
+    background: #FF9900;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background: #ce7c02;
+    border: 0;
+}
+
+.btn-secondary {
+    margin-left: 50px;
+    background: none;
+    border: 1px solid #BCD0E5;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+
+.btn-secondary:hover{
+    background: none;
+    border: 1px solid #91a1b3;
+    color: #173A56;
+    
+}
+.navbar .btn-primary {
+    margin-left: 20px;
+}
+
+.herobwa h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.herobwa p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #2F281E;
+}
+
+.navbar-nav .nav-link{
+    color: #2F281E;
+}
+
+
+@media only screen and (max-width: 992px) { 
+    .btn-primary, .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+    
+ }
+
+
